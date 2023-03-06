@@ -217,6 +217,7 @@ body {
 .tabs__content-img {
   grid-row: 1/-1;
   align-self: stretch;
+  object-fit: cover;
 }
 
 .tabs__content-box h3 {
@@ -561,4 +562,46 @@ body {
   display: flex;
   gap: 20px;
   justify-self: end;
+}
+
+@media (max-width: 992px) {
+  .tabs {
+    display: block;
+  }
+
+  .tabs__btn {
+    display: block;
+    column-count: 2;
+  }
+  .tabs__btn-item {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 66px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 568px) {
+  .buy-btn {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .top {
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .title {
+    font-size: 48px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
 }
