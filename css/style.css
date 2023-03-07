@@ -595,6 +595,20 @@ body {
   .top {
     text-align: center;
   }
+
+  .features__titles {
+    display: block;
+  }
+
+  .tabs__content-item {
+    display: block;
+  }
+
+  .video {
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -603,5 +617,12 @@ body {
   }
   .subtitle {
     font-size: 20px;
+  }
+
+  .tabs__btn {
+    column-count: 1;
+  }
+  .features__text {
+    font-size: 32px;
   }
 }
